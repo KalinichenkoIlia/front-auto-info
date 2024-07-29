@@ -3,4 +3,9 @@
   padding: 0;
 }
 
+body {
+  background: var(--tg-color-scheme);
+  color: var(--tg-color-scheme);
+}
+
 /*# sourceMappingURL=App.modules.css.map */
