@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: "./src/index.jsx",
     output: {
-        path: path.join(__dirname, "../dist"),
+        path: path.join(__dirname, "./dist"),
         filename: "bundle.js"
     },
     devServer: {
@@ -18,14 +18,7 @@ module.exports = {
     },
     module: {
         rules: [
-            {
-                test: /\.(otf|ttf|eot|svg|woff(2)?)$/,
-                use: [
-                    {
-                        loader: "file-loader",
-                    },
-                ],
-            },
+
             {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
@@ -37,16 +30,14 @@ module.exports = {
                 test: /\.css$/,
                 use: [
                     {
-                        loader: MiniCssExtractPlugin.loader
+                        loader: MiniCssExtractPlugin.loader,
                     },
                     {
                         loader: 'css-loader',
                         options: {
-                            importLoaders: 1,
-                            modules: {
-                                localIdentName: '[path][name]__[local]___[hash:base64:5]'
-                            }
+                            modules: true,
                         }
+
                     }
                 ]
             }
