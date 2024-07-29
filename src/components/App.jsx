@@ -11,6 +11,7 @@ function App() {
             <span className={styles.wrapper}>{tg.initDataUnsafe?.user?.id}</span>
             <span className={styles.wrapper}>{tg.initDataUnsafe?.user?.id}</span>
             <span className={styles.wrapper}>{tg.initDataUnsafe?.user}</span>
+            <span className={styles.wrapper}>{tg.initDataUnsafe}</span>
         </div>
     );
 }
