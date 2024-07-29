@@ -1,0 +1,16 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--tg-color-scheme);
+  color: var(--tg-color-scheme);
+}
+
+.src-styles-Web-Web-modules__wrapper___HM0xB {
+  color: blue;
+  background: red;
+}
+
