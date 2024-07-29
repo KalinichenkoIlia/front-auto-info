@@ -8,4 +8,9 @@ body {
   color: var(--tg-color-scheme);
 }
 
+.wrapper {
+  color: blue;
+  background: red;
+}
+
 /*# sourceMappingURL=App.modules.css.map */

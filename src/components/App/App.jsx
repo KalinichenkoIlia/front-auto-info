@@ -6,10 +6,11 @@ const tg = window.Telegram.WebApp
 function App() {
     return (
         <div>
-        <span>{tg.initDataUnsafe?.user?.username}</span>
-            <span>{tg.initDataUnsafe?.user?.id}</span>
-            <span>{tg.initDataUnsafe?.user?.id}</span>
-            <span>{tg.initDataUnsafe?.user}</span>
+            ky
+            <span className={style.wrapper}>{tg.initDataUnsafe?.user?.username}</span>
+            <span className={style.wrapper}>{tg.initDataUnsafe?.user?.id}</span>
+            <span className={style.wrapper}>{tg.initDataUnsafe?.user?.id}</span>
+            <span className={style.wrapper}>{tg.initDataUnsafe?.user}</span>
         </div>
     );
 }
