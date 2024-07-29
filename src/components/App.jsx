@@ -1,18 +1,13 @@
 import * as React from "react";
 import * as styles from '../styles/App/App.module.css'
+import Web from "./Web/Web";
 
-const tg = window.Telegram.WebApp
 
 function App() {
     return (
-        <div>
-            ky
-            <span className={styles.wrapper}>{tg.initDataUnsafe?.user?.username}</span>
-            <span className={styles.wrapper}>{tg.initDataUnsafe?.user?.id}</span>
-            <span className={styles.wrapper}>{tg.initDataUnsafe?.user?.id}</span>
-            <span className={styles.wrapper}>{tg.initDataUnsafe?.user}</span>
-            <span className={styles.wrapper}>{tg.initDataUnsafe}</span>
-        </div>
+        <>
+        <Web/>
+        </>
     );
 }
 
