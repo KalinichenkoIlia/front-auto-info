@@ -9,7 +9,11 @@ function Web() {
         <>
             kyyujtgjgh
             <div className={styles.wrapper} key={tg.initDataUnsafe?.user} >{tg.initDataUnsafe?.user?.username}</div>
-            <div className={styles.wrapper} key={tg.initData.id}>{tg.initDataUnsafe?.user?.id}</div>
+            <div className={styles.wrapper} key={tg.initDataUnsafe?.user?.id}>{tg.initDataUnsafe?.user?.id}</div>
+            {tg.initDataUnsafe.map(e => {
+                <div key={e.name}>{e}</div>
+            })}
+
 
         </>
     );
