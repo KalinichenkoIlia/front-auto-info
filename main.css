@@ -1,6 +1,10 @@
 
 
 
+.src-styles-Profile-Profile-modules__photo_user___LQ6ff {
+  border-radius: 50%;
+}
+
 .src-styles-Header-Header-modules__headerBlock___egPgs {
   width: 100%;
   height: 90px;
@@ -19,7 +23,7 @@
   flex-direction: column;
   max-width: 1024px;
   max-height: 1366px;
-  background-color: rgba(166, 160, 160, 0.37);
+  background-color: rgb(250, 250, 250);
 }
 
 .src-styles-Web-Web-modules__wrapper___HM0xB {
