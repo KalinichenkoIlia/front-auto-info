@@ -1,12 +1,15 @@
+@import "../basic/variables.color";
 * {
   margin: 0;
   padding: 0;
 }
-body {
-  background: var(--tg-color-scheme);
-  color: var(--tg-color-scheme);
-}
 
 .container {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1024px;
+  height: 100%;
+  background-color: $basic-background-color;
 }

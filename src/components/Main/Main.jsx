@@ -7,7 +7,7 @@ import * as styles from '../../styles/Main/Main.modules.css'
 function Main() {
     return (
         <>
-            <Header/>
+
             <main>
                 <Outlet/>
             </main>

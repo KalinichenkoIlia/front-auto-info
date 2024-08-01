@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .subtitle {
+  color: rgb(112, 117, 121);
+}
+.wrapper .balance {
+  font-size: 7vw;
+  color: rgb(49, 209, 88);
+}
+.wrapper .balance:after {
+  content: " ₽";
+  font-size: 5.5vw;
+  color: rgb(112, 117, 121);
+}
+
+/*# sourceMappingURL=Balance.modules.css.map */
