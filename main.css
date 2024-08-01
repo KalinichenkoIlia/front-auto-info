@@ -1,12 +1,25 @@
 
+
+
+.src-styles-Header-Header-modules__headerBlock___egPgs {
+  width: 100%;
+  height: 90px;
+  background-color: #9e9ea4;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
 }
 
-body {
-  background: var(--tg-color-scheme);
-  color: var(--tg-color-scheme);
+.src-styles-App-App-module__container___BaNeO {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  max-height: 1366px;
+  background-color: rgba(166, 160, 160, 0.37);
 }
 
 .src-styles-Web-Web-modules__wrapper___HM0xB {
